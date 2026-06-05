@@ -1,0 +1,8 @@
+flask
+flask-cors
+pandas
+scikit-learn
+nltk
+requests
+beautifulsoup4
+openai

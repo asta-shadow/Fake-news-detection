@@ -1,0 +1,144 @@
+text,label
+"""Spraying chlorine or alcohol on the skin kills viruses in the body""",1
+"""Only older adults and young people are at risk""",1
+"""Children cannot get COVID-19""",1
+"""COVID-19 is just like the flu""",1
+"""Everyone with COVID-19 dies""",1
+"""Cats and dogs spread coronavirus""",1
+"""Face masks always protect against coronavirus""",1
+"""Hand dryers kill coronavirus""",1
+"""SARS-CoV-2 is just a mutated form of the common cold""",1
+"""You have to be with someone for 10 minutes to catch the virus""",1
+"""Rinsing the nose with saline protects against coronavirus""",1
+"""You can protect yourself by gargling bleach""",1
+"""Antibiotics kill coronavirus""",1
+"""Thermal scanners can diagnose coronavirus""",1
+"""Garlic protects against coronaviruses""",1
+"""Parcels from China can spread coronavirus""",1
+"""Home remedies can cure and protect against COVID-19""",1
+"""You can catch coronavirus from eating Chinese food in the US""",1
+"""You can catch coronavirus from urine and feces""",1
+"""The virus will die off when temperatures rise in the spring""",1
+"""Coronavirus is the deadliest virus known to humans""",1
+"""Flu and pneumonia vaccines can protect against COVID-19""",1
+"""The virus originated in a laboratory in China""",1
+"""The outbreak began because people ate bat soup""",1
+"""5G helps SARS-CoV-2 spread""",1
+"""Drinking alcohol reduces the risk of infection""",1
+"""Injecting or consuming bleach or disinfectant kills the virus""",1
+Should children wear a mask?,0
+Are there situations where children aged 5 years and under may wear or be required to wear a mask?,0
+Should children with developmental disabilities wear masks?,0
+Should children who have health issues or a medical condition that compromises their immune system wear a mask?,0
+What type of mask should children wear?,0
+How should children wear a mask?,0
+Should a child wear a mask at home?,0
+Should teachers or other adults working with children wear a mask?,0
+Should children wear a mask when playing sports or doing physical activities?,0
+Are there alternatives to fabric masks such as face shields?,0
+What is contact tracing?,0
+How does contact tracing work?,0
+Who is defined as a contact?,0
+Can contact tracing help in controlling spread of the virus?,0
+When should contact tracing be implemented?,0
+What happens if you are a contact?,0
+Who is needed for successful contact tracing?,0
+What are the tools used for contact tracing?,0
+What should be considered for data protection?,0
+"Can I get COVID-19 from eating fresh foods, like fruits and vegetables?",0
+How should I wash fruits and vegetables in the time of COVID-19?,0
+Can the virus that causes COVID-19 live on the surface of food packaging?,0
+"Can the virus that causes COVID-19 be transmitted through the consumption of cooked foods, including animal products?",0
+Is it safe to go to grocery stores and other food markets?,0
+Is it safe to have groceries delivered?,0
+What is the best household disinfectant for surfaces?,0
+What foods should be consumed to support the immune system?,0
+Can micronutrient (vitamin and mineral) supplements prevent COVID-19 in healthy individuals or cure it in those with COVID-19 disease?,0
+Are vitamin D supplements needed if individuals are not exposed to sunlight due to lockdowns?,0
+Are there any herbal teas or herbal supplements that may help prevent or cure COVID-19?,0
+Can probiotics help prevent COVID-19?,0
+Can eating ginger help prevent COVID-19?,0
+Can eating garlic help prevent COVID-19?,0
+Can adding pepper to your soup or other meals help prevent or cure COVID-19?,0
+Can I get COVID-19 from food?,0
+"Can the virus live on the surface of foods (including fruits and vegetables, frozen foods, pre-packaged foods)?",0
+"How to wash fruits and vegetables? Just with water, or something else?",0
+Can the virus live on the surface of food packaging? How long? Is it necessary to disinfect?,0
+How long is it to cook food? To what temperature to kill the virus?,0
+What precautions should consumers take in grocery stores?,0
+Is food/grocery delivery safe?,0
+What is the best household disinfectant for surfaces?,0
+Is it still safe to go to food markets? Animal markets? Wet markets?,0
+Can someone who has tested positive for COVID-19 be cared for at home?,0
+What should be done to prevent other people in the house from becoming sick if a person with COVID-19 is being cared for at home?,0
+How long should people with COVID-19 stay at home and in isolation?,0
+When should a patient with COVID-19 be cared for at home?,0
+What factors determine whether a COVID-19 patient can be cared for at home?,0
+What additional factors should be taken into consideration when assessing the home setting to determine if it is safe for patients and families to remain at home?,0
+What precautions should health workers take when providing care to patients in home settings?,0
+Could pregnant women be cared for at home if they have COVID-19?,0
+Can children be cared for at home if they have COVID-19?,0
+How does COVID-19 spread between people?,0
+When do infected people transmit the virus?,0
+What is the difference between people who are asymptomatic or pre-symptomatic? Don’t they both mean someone without symptoms?,0
+Are there certain settings where COVID-19 can spread more easily?,0
+How can I reduce my risk of getting COVID-19?,0
+How many malaria-affected countries have reported cases of COVID-19?,0
+Should core malaria vector control interventions be maintained in view of the rapid global spread of COVID-19?,0
+Should WHO-recommended preventive therapies be maintained in sub-Saharan Africa?,0
+Are there any changes to WHO guidance with respect to malaria diagnosis and treatment?,0
+What additional special measures may be needed in the context of COVID-19?,0
+What are the key considerations for countries that are working to eliminate malaria or prevent re-establishment of transmission?,0
+Why is WHO particularly concerned about the spread of COVID-19 in malaria-affected areas?,0
+Have there been disruptions in the global supply of key malaria-related commodities as a result of the COVID-19 pandemic?,0
+What is WHO’s position on the use of chloroquine and hydroxychloroquine in the context of the COVID-19 response?,0
+What is WHO’s position on the use of Artemisia plant material for the prevention or treatment of malaria and/or COVID-19?,0
+What is WHO doing to support malaria-affected countries in the context of COVID-19?,0
+"I am ATTENDING a small gathering or an event such as a wedding, a party or sports tournament. What precautions should I take to protect myself and others from getting infected with COVID-19?",0
+"I am ORGANIZING a small gathering or an event such as a wedding, a party or sports tournament. What precautions should I take to prevent the spread of COVID-19 among guests?",0
+What precautions should everyone take in a hotel or other accommodation establishment?,0
+Are pools and water areas safe to use?,0
+Are there precautions to take while eating in a restaurant?,0
+Is it safe to use fans or air conditioning in an accommodation?,0
+Can you get the virus from people who were in the room previous to you?,0
+What should travelers do if they get sick while at an accommodation facility?,0
+What precautions should I take during travel?,0
+Who should not travel?,0
+What is meant by “essential travel”?,0
+"If I feel well but am in the high-risk category, should I travel?",0
+How can ventilation reduce the risk of contracting COVID-19 in airplanes?,0
+The travel company is asking me to wear a mask while traveling. Which kind of mask should I use?,0
+Should I get an immunity certificate before travelling?,0
+Could I be screened when I exit or arrive at my destination?,0
+Should I use a digital contact tracing app while traveling?,0
+Should I get a test before departure or upon arrival?,0
+What happens if I have symptoms when arriving at my destination?,0
+What should I do after arriving at my destination?,0
+What should I do if I get sick while traveling?,0
+What is ventilation?,0
+What is WHO doing to address ventilation in the context of COVID-19?,0
+Can I use air conditioning in the context of COVID-19?,0
+Can fans be used safely in indoor spaces?,0
+How can ventilation reduce the risk of contracting COVID-19 in airplanes?,0
+What is WHO doing to address ventilation in the context of COVID-19?,0
+What are the recommended air ventilation requirements for health facilities?,0
+Can the use of air conditioning increase the risk of SARS-CoV-2 transmission in health facilities?,0
+Can fans be used in health facilities?,0
+What medical procedures are considered aerosol generating in health facilities?,0
+What is ventilation?,0
+What is WHO doing to address ventilation in the context of COVID-19?,0
+What steps can be undertaken to improve the ventilation in indoor public spaces and buildings?,0
+"Are there any recommendations for offices, schools and the accommodation sector regarding ventilation and air conditioning use?",0
+What can staff do to stay safe while working at a hotel or other accommodation establishment?,0
+Should staff wear a mask while working?,0
+What should staff do if a guest becomes sick at an accommodation establishment?,0
+What should staff do if they have symptoms?,0
+Thermal scanners CANNOT detect COVID-19,0
+Drinking alcohol does not protect you against COVID-19 and can be dangerous,0
+Most people who get COVID-19 recover from it,0
+"The prolonged use of medical masks* when properly worn, DOES NOT cause CO2 intoxication nor oxygen deficiency",0
+"The coronavirus disease (COVID-19) is caused by a virus, NOT by bacteria",0
+The likelihood of shoes spreading COVID-19 is very low,0
+People should NOT wear masks while exercising ,0
+Studies show hydroxychloroquine does not have clinical benefits in treating COVID-19 ,0
+Vitamin and mineral supplements cannot cure COVID-19,0

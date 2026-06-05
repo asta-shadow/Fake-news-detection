@@ -1,0 +1,47 @@
+examples
+
+true news
+
+ISOT true
+The White House said on Monday it will continue to work with Congress on measures aimed at strengthening the nation's cybersecurity defenses following recent cyber attacks.
+
+
+The World Health Organization announced new global health guidelines to improve pandemic preparedness. Governments are encouraged to strengthen public health systems and invest in early detection technologies to prevent future outbreaks.
+
+
+The government approved a new infrastructure plan aimed at improving highways, rail networks, and public transportation systems across the country over the next five years.
+
+fake news
+
+ISOT fake
+Breaking: A secret government experiment has proven that vaccines contain tracking microchips that allow authorities to monitor citizens.
+
+
+
+Scientists have discovered that drinking hot lemon water every hour can completely cure COVID-19 within 24 hours without any medical treatment.
+
+A secret alien spacecraft has landed in the desert and government officials are hiding the truth from the public according to anonymous internet sources.
+
+
+URLS
+
+true
+NASA Climate Satellite::https://timesofindia.indiatimes.com/science/nasa-launches-small-climate-satellite-to-study-earths-poles/articleshow/110433865.cms
+
+Climate Monitoring Satellite Launch::https://www.reuters.com/sustainability/climate-energy/india-launches-nasa-isro-satellite-track-climate-threats-space-2025-07-30/
+
+only this one is showing real
+Japan Climate Satellite Launch::https://apnews.com/article/f5a2cdc4e8e0611288c3e72b9e965c1b
+
+
+fake 
+5G Causes COVID-19::https://www.indiatoday.in/fact-check/story/american-govt-did-not-admit-to-link-between-covid-5g-old-conspiracy-theory-viral-again-2330240-2023-02-03
+
+5G Responsible for COVID Surge::https://www.indiatoday.in/technology/news/story/audio-message-blaming-5g-trials-behind-surge-in-covid-19-cases-in-india-is-fake-1800292-2021-05-08
+
+5G Conspiracy Theory Example::https://confident.feaa.uaic.ro/CyberCafe/Academic/PublishingImages/Lists/Unit%2033%20Fake%20News/Flat/Fake%20News%20Example%205G%20Spain.pdf
+
+
+
+open ai key 
+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

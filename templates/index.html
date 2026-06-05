@@ -1,0 +1,339 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>News Verification with AI</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+display:flex;
+}
+
+.sidebar{
+width:230px;
+background:#020617;
+height:100vh;
+padding:30px 20px;
+position:fixed;
+}
+
+.logo{
+font-size:20px;
+font-weight:700;
+margin-bottom:40px;
+}
+
+.menu button{
+display:block;
+width:100%;
+background:none;
+border:none;
+color:#94a3b8;
+padding:12px;
+text-align:left;
+cursor:pointer;
+border-radius:8px;
+margin-bottom:8px;
+font-size:14px;
+}
+
+.menu button:hover{
+background:#1e293b;
+color:white;
+}
+
+.main{
+margin-left:230px;
+width:100%;
+padding:40px;
+}
+
+.card{
+background:#020617;
+padding:25px;
+border-radius:12px;
+border:1px solid #1e293b;
+margin-bottom:25px;
+}
+
+textarea,input{
+width:100%;
+padding:12px;
+background:#020617;
+border:1px solid #334155;
+border-radius:8px;
+color:white;
+margin-top:10px;
+}
+
+textarea{
+height:150px;
+resize:none;
+}
+
+button.primary{
+width:100%;
+margin-top:15px;
+padding:12px;
+background:#2563eb;
+border:none;
+border-radius:8px;
+color:white;
+font-weight:600;
+cursor:pointer;
+}
+
+button.primary:hover{
+background:#1d4ed8;
+}
+
+.result{
+margin-top:20px;
+padding:20px;
+border-radius:10px;
+background:#020617;
+border:1px solid #334155;
+}
+
+.section{
+display:none;
+}
+
+.active{
+display:block;
+}
+
+.trend{
+background:#020617;
+padding:12px;
+border:1px solid #334155;
+border-radius:8px;
+margin-bottom:10px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<div class="logo">
+ News Verification with AI
+</div>
+
+<div class="menu">
+
+<button onclick="showSection('scan')">
+<i class="bi bi-search"></i> Text Scan
+</button>
+
+<button onclick="showSection('url')">
+<i class="bi bi-link"></i> URL Scan
+</button>
+
+<button onclick="showSection('trending')">
+<i class="bi bi-lightning"></i> Trending News
+</button>
+
+<button onclick="showSection('about')">
+<i class="bi bi-info-circle"></i> About
+</button>
+
+</div>
+
+</div>
+
+<div class="main">
+
+<!-- TEXT SCAN -->
+
+<div id="scan" class="section {% if active_tab == 'scan' %}active{% endif %}">
+
+<div class="card">
+
+<h3>Analyze News Text</h3>
+
+<form action="/predict" method="POST">
+
+<textarea name="news" placeholder="Paste news article here...">{{ news_text }}</textarea>
+
+<button class="primary">
+Analyze News
+</button>
+
+</form>
+
+{% if result %}
+
+<div class="result">
+
+<b>{{ ml_result }}</b>
+
+<p>{{ result }}</p>
+
+</div>
+
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- URL SCAN -->
+
+<div id="url" class="section {% if active_tab == 'url' %}active{% endif %}">
+
+<div class="card">
+
+<h3>Analyze News URL</h3>
+
+<form action="/predict_url" method="POST">
+
+<input type="text" name="url" placeholder="Paste news URL..." value="{{ url_input }}">
+
+<button class="primary">
+Analyze URL
+</button>
+
+</form>
+
+{% if url_result %}
+
+<div class="result">
+
+<h4>Verification Result</h4>
+
+<p>{{ url_result }}</p>
+
+</div>
+
+{% endif %}
+
+</div>
+
+</div>
+
+
+<!-- TRENDING NEWS -->
+
+<div id="trending" class="section">
+
+<div class="card">
+
+<h3>Trending News</h3>
+
+{% for item in trending %}
+
+<div class="trend" onclick="autoFill('{{ item.title }}')">
+
+{{ item.title }}
+
+</div>
+
+{% endfor %}
+
+</div>
+
+</div>
+
+
+
+<!-- ABOUT SECTION -->
+
+<div id="about" class="section">
+
+<div class="card">
+
+<h3>About This Application</h3>
+
+<p style="margin-top:10px; line-height:1.7; color:#cbd5f5;">
+
+<b>VeriFact AI</b> is an intelligent Fake News Detection system designed to help users identify
+misinformation and verify the credibility of news articles using Artificial Intelligence
+and Large Language Models (LLMs).
+
+</p>
+
+<p style="margin-top:10px; line-height:1.7; color:#cbd5f5;">
+
+The platform allows users to verify news using two different methods:
+
+</p>
+
+<ul style="margin-top:10px; padding-left:20px; line-height:1.8; color:#cbd5f5;">
+
+<li>📝 <b>Text Analysis</b> – Users can paste any news article text and the AI will analyze it to determine if it is likely real or fake.</li>
+
+<li>🔗 <b>URL Analysis</b> – Users can paste a news article link, and the system automatically extracts the article content and evaluates its credibility.</li>
+
+<li>⚡ <b>Trending News Verification</b> – Displays trending headlines that users can quickly analyze.</li>
+
+</ul>
+
+<p style="margin-top:15px; line-height:1.7; color:#cbd5f5;">
+
+The application combines Machine Learning techniques with advanced
+LLM reasoning to provide explanations and insights about the reliability
+of the news content.
+
+</p>
+
+<p style="margin-top:15px; color:#94a3b8; font-size:14px;">
+
+This project demonstrates how Artificial Intelligence can be used
+to combat misinformation and improve digital media literacy.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+function showSection(section){
+
+document.querySelectorAll(".section").forEach(sec=>{
+sec.classList.remove("active")
+})
+
+document.getElementById(section).classList.add("active")
+
+}
+
+function autoFill(text){
+
+document.querySelector("textarea").value = text
+
+showSection("scan")
+
+}
+
+</script>
+
+</body>
+</html>
+```
